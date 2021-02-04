@@ -1,6 +1,6 @@
 # Hello Audiences
 
-Nutchanon's space for announcements.
+Nutchanon's space for announcement.
 
 # e-lab
 for lab 05 or later.
