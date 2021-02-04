@@ -181,3 +181,8 @@ clean:
 get-fullname:
     @grep "^${USER}:" /etc/passwd | cut -d: -f5,5 | cut -d, -f1,1
 ```
+### 05-2-04
+```
+%.out: %.sh
+    @sh $< >> $@
+```
