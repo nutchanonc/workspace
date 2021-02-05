@@ -1,5 +1,3 @@
-# Hello World
-
 ## Algorithms
 ### Lectures
 - Checkout this link: https://gitlab.com/jittat/01204313-algorithms-63/-/tree/master/lectures
