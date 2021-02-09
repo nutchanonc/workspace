@@ -20,3 +20,21 @@ then f(n) = O(cn<sup>d</sup>)
 
 ### Transitivity
 - give f(n) = O(g(n)) and g(n) = O(h(n)) then f(n) = O(h(n))
+
+
+### Selection Sort
+> input: n, Array A[1,2,3,4,...,n]
+<br>
+
+**Pseudo code**
+```python
+for i=1 to to n-1:      O(n-1)
+  min = A[i]            O(1)
+  minIndex = i          ^
+  for j=i+1 to n:       O(n-i)
+    if A[i] < min:        O(1)
+      min = A[j]            O(1)
+      minIndex = j          ^
+  swap A[i] and A[j]    O(1)
+```
+( O(1) + O(n) + O(1) ) x (n-1) = O(n<sup>2</sup>) 
