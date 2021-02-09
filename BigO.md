@@ -11,4 +11,5 @@ then f(n) = O(cn<sup>d</sup>)
 
 ### Prove that f(n) = O(g(n)), h(n) = O(g(n)) then f(n) + h(n) = (g(n)) 
 
-f(n) <= c<sub>1</sub>g(n) while n >= n<sub>1</sub> and f(n) <= c<sub>1</sub>g(n) while n >= n<sub>1</sub><br>
+f(n) <= c<sub>1</sub>g(n) while n >= n<sub>1</sub> and f(n) <= c<sub>2</sub>g(n) while n >= n<sub>2</sub><br>
+  f(n) + h(n) <= c<sub>1</sub>g(n)+ c<sub>2</sub>g(n)  while  n >= max(n<sub>1</sub>,n<sub>2</sub>)
