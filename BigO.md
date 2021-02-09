@@ -37,4 +37,4 @@ for i=1 to to n-1:      O(n-1)
       minIndex = j          ^
   swap A[i] and A[j]    O(1)
 ```
-( O(1) + O(n) + O(1) ) x (n-1) = O(n<sup>2</sup>) 
+Simple thinking : ( O(1) + O(n) + O(1) ) x (n-1) = O(n<sup>2</sup>) 
