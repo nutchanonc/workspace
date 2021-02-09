@@ -54,5 +54,5 @@ while m != 1:
 Rough calculating: O(n) x ( O(n) + O(n) + O(1)) = O(n<sup>2</sup>)
 Presice calculating: 
 > c(n) + c(n/2) + c(n+4) + c(n+8) + ... + c<br>
-cn[1 + 1/2 + 1/4 + ... + 1/n]  (Geometric series => always smaller than 2)<br>
-So: 2cn = O(n)    // Better!
+c n [1 + 1/2 + 1/4 + ... + 1/n]  (Geometric series => always smaller than 2)<br>
+So: 2cn = O(n)    // Better !
