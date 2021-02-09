@@ -15,4 +15,5 @@ then f(n) = O(cn<sup>d</sup>)
 - f(n) + h(n) <= c<sub>1</sub>g(n)+ c<sub>2</sub>g(n)  while  n >= max(n<sub>1</sub>,n<sub>2</sub>)
 - f(n) + h(n) <= (c<sub>1</sub> + c<sub>2</sub>)g(n)
 - give C = c<sub>1</sub> + c<sub>2</sub> and n<sub>0</sub> = max(n<sub>1</sub>,n<sub>2</sub>)
-- f(n)+h(n) <= Cg(n) while n >= n<sub>0</sub>
+- f(n) + h(n) <= Cg(n) while n >= n<sub>0</sub>
+- f(n) + h(n) = O(g(n))
