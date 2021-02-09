@@ -38,3 +38,21 @@ for i=1 to to n-1:      O(n-1)
   swap A[i] and A[j]    O(1)
 ```
 Simple thinking : ( O(1) + O(n) + O(1) ) x (n-1) = O(n<sup>2</sup>) 
+
+
+### Find Max
+> input: A , n (size of Array)
+```python
+m = n
+while m != 1:
+  for i=1,2,3,...,m/2:
+    B[i] = max(A[2i-1],A[2i])
+  for i=1,2,3,...,m/2:
+    A[i] = B[i]
+  m = m/2
+```
+Rough calculating: O(n) x ( O(n) + O(n) + O(1)) = O(n<sup>2</sup>)
+Presice calculating: 
+> c(n) + c(n/2) + c(n+4) + c(n+8) + ... + c<br>
+cn[1 + 1/2 + 1/4 + ... + 1/n]  (Geometric series => always smaller than 2)<br>
+So: 2cn = O(n)    // Better!
