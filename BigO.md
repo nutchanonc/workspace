@@ -17,3 +17,6 @@ then f(n) = O(cn<sup>d</sup>)
 - give C = c<sub>1</sub> + c<sub>2</sub> and n<sub>0</sub> = max(n<sub>1</sub>,n<sub>2</sub>)
 - f(n) + h(n) <= Cg(n) while n >= n<sub>0</sub>
 - f(n) + h(n) = O(g(n))
+
+### Transitivity
+- give f(n) = O(g(n)) and g(n) = O(h(n)) then f(n) = O(h(n))
